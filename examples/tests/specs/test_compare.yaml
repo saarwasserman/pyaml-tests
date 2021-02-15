@@ -1,0 +1,19 @@
+
+# this test doesn't make sense, only for demonstration
+compare_with_random:
+  operation: compare.random_params
+  random:
+    count: 5  # number of tests to generate
+    params:
+      a:
+        min: 15
+        max: 30
+        type: uniform
+      b:
+        min: 5
+        max: 20
+        type: normal
+      res:
+        min: 10
+        max: 50
+        type: normal

@@ -1,0 +1,29 @@
+
+
+add:
+  operation: add.add
+  a: 2
+  b: 3
+  res: 5
+
+
+add_with_multiple_params:
+  operation: add.add_with_params
+  params:
+    - a
+    - b
+    - res
+  values:
+    - [1, 2, 3]
+    - [2, 2, 5]
+
+
+add_with_multiple_params:
+  operation: add.add_with_params
+  params:
+    - a
+    - b
+    - res
+  values:
+    - [1, 2, 3]
+    - [2, 2, 5]
